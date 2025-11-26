@@ -1,0 +1,20 @@
+.elemento-form{
+    padding: 20px;
+    border: 1px solid beige;
+}
+label{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+}
+.elemento-form-button{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    padding: 10px;
+    border: 10px solid;
+}
