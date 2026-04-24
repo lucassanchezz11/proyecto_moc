@@ -3,7 +3,8 @@ import React, {useState} from "react";
 function MiLista(props){
 
     return(
-        <div className='container mt-3 text-light'>
+        /* He cambiado 'text-light' por 'text-dark' para que la letra sea negra */
+        <div className='container mt-3 text-dark'>
             <ul>
                 {
                     props.incidencias.map((i)=> (
